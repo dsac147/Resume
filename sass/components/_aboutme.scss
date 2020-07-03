@@ -1,0 +1,84 @@
+.aboutme__box {
+    margin: 5rem auto;
+}
+
+.aboutme__img{
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+.name{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: $xlarge-font-size;
+    margin-top: -3rem;
+    
+    &__first{
+        font-weight: 400;
+    }
+
+    &__last{
+        margin-top: -1rem;
+        font-weight: 800;
+    }
+
+    &__role{
+        font-size: 1.2rem;
+        letter-spacing: 0.2rem;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    &__icon{
+        padding-right:2rem;
+    }
+
+    &__text{
+        font-size:$large-font-size;
+        font-weight: 600;
+        text-align: left;
+        border-bottom: 0.3rem solid $default-font-color;
+        flex: 1;
+    }
+
+    &__icon-box{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        background-color: $color-primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.svg {
+    height: 2rem;
+    width: 2rem;
+
+    &-bullets{
+        height: 1rem;
+        width: 1rem;
+    }
+
+    &-icons{
+        height: 2rem;
+        width: 2rem;
+    }
+
+}
+
+.description{
+    padding: 3rem 0 6rem 4.2rem;
+
+    &__aboutme{
+        font-size: $default-font-size;
+    }
+}
+

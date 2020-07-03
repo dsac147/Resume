@@ -1,0 +1,76 @@
+.education{
+    margin-bottom: 6rem;
+}
+
+
+.course{
+    display: flex;
+    align-items: baseline;
+    margin-top: 3rem;
+
+    &__bullet{
+        
+        padding: 1rem 1rem 1rem 1.4rem;
+
+        &__img{
+            height: 0.7rem;
+            width: .7rem;
+        }
+    }
+
+    &__heading{
+        font-weight: 700;
+        font-size: $big-font-size;
+        flex: 1;
+    }
+}
+
+.institution{
+    font-weight: 400;
+    font-size: $big-font-size;
+    padding-left: 4.1rem;
+    margin-top: -1rem;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald';
+    font-size: $default-font-size;
+    padding-left: 4.1rem;
+    color: $color-secondary;
+    &__time{
+        color: $color-secondary;
+    }
+}
+
+
+
+.degree{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    &__bullet-box{
+        display: flex;
+        align-items: center;
+        padding: 0 1.3rem 0 1.8rem;
+    }
+
+    &__text-box{
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+
+        &-name{
+            font-weight: 400;
+            font-size: $default-font-size;
+        }   
+        
+        &-marks{
+            font-family: 'Oswald';
+            font-size: $default-font-size;
+            color: $color-secondary;
+        }
+    }
+}
+

@@ -1,0 +1,73 @@
+.contact{
+    margin-top: 8rem;
+    background-color: $color-primary;
+    flex: 1;
+    &__details{
+        margin-top: 6rem;
+    }
+}
+
+.misc{
+    margin-top: 7rem;
+    background-color: $color-primary;
+    flex: 1;
+    
+    &__box{
+        padding-top: 2rem;
+
+    }
+}
+
+.side-heading{
+
+    &-box{
+        display: flex;
+        justify-content: center;
+    }
+
+    &-text{
+        font-size: $large-font-size;
+        font-weight: 700;
+        background-color: $default-font-color;
+        color: $bgcolor3;
+        padding: .8rem 2rem;
+        margin-top: -2.3rem;
+    }
+    
+}
+
+.location{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+
+    &__bullet-box{
+        display: flex;
+        align-items: center;
+        padding: 0 1.3rem 0 4.9rem;
+    }
+
+    &__text-box{
+        font-weight: 400;
+        font-size: $default-font-size;
+    }
+}
+
+.language{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__bullet-box{
+        display: flex;
+        align-items: center;
+        padding-right: 4.9rem;
+    }
+
+    &__text-box{
+        font-weight: 400;
+        font-size: $default-font-size;
+        padding-left: 4.9rem;
+    }
+}
