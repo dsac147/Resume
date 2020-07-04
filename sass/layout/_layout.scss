@@ -1,11 +1,23 @@
 .container{
-    max-width: 80%;//sets size of central page
+    max-width: 120rem;//sets size of central page
     margin: 8rem auto;//centers
     background-color: $bgcolor3;
     box-shadow: 3rem 4rem 10rem rgba($color: #000000, $alpha: .4);
     border-radius: 0.4rem;
-    display: flex;;
-    flex-direction: row;
+    display: flex;
+
+    @media only screen and (max-width: $bp-largest) {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        flex-direction: column;
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
 .column__first{
@@ -13,6 +25,9 @@
     flex:0 0 30%;
     display: flex;
     flex-direction: column;
+    @media only screen and (max-width: $bp-small) {
+        flex-direction: row;
+    }
 }
 
 .column__second{
@@ -26,6 +41,23 @@
 
 #container__two{
     margin-top: -2rem;
+    @media only screen and (max-width: $bp-largest) {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+    @media only screen and (max-width: $bp-small) {
+        flex-direction:column-reverse;
+        margin: -5rem 0 0 0;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+#interests{
+    @media only screen and (max-width: $bp-small) {
+        margin-top: -5rem;
+    }
 }
 
 #skills{

@@ -1,12 +1,9 @@
+//colors
 $color-primary: #fbc9c4;
 $color-secondary: #3dc1d3;
-// $color-secondary: #6886c5;
-
 $bgcolor: #e7e7e7;
 $bgcolor2: #dfdfdf;
 $bgcolor3: rgb(250, 250, 250);
-
-// GRID
 
 // FONT
 $default-font-size: 1.6rem;
@@ -14,5 +11,9 @@ $big-font-size: 2rem;
 $large-font-size: 2.2rem;
 $xlarge-font-size: 2.8rem;
 $default-font-color: #414042;
-
 $margin-bottom-default: 6rem;
+
+//responsive design
+$bp-largest:75em; //1200px
+$bp-medium:62.5em; //1000px
+$bp-small:40.625em; //650px

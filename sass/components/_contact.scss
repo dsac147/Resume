@@ -11,10 +11,20 @@
     margin-top: 7rem;
     background-color: $color-primary;
     flex: 1;
+    display: flex;
+    flex-direction: column;
     
     &__box{
         padding-top: 2rem;
+    }
+    @media only screen and (max-width: $bp-small) {
+        flex-direction: row;
+    }
+}
 
+.language__box{
+    @media only screen and (max-width: $bp-small) {
+        flex: 0 0 50%;
     }
 }
 
@@ -40,16 +50,26 @@
     margin: 2rem 0 2rem 0;
     display: flex;
     align-items: center;
+    @media only screen and (max-width: $bp-small) {
+        justify-content: center;
+    }
 
     &__bullet-box{
         display: flex;
         align-items: center;
         padding: 0 1.3rem 0 4.9rem;
+        @media only screen and (max-width: $bp-small) {
+            padding: 0 1rem 0 2rem;
+        }
     }
 
     &__text-box{
         font-weight: 400;
         font-size: $default-font-size;
+        padding-right: 4.9rem;
+        @media only screen and (max-width: $bp-small) {
+            padding-right: 2rem;
+        }
     }
 }
 

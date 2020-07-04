@@ -1,10 +1,20 @@
+.about{
+    @media only screen and (max-width: $bp-small) {
+        flex: 0 0 50%;
+    }
+}
+
 .aboutme__box {
     margin: 5rem auto;
+    text-align: center;
 }
 
 .aboutme__img{
     max-width: 180px;
-    margin: 0 auto;
+    
+    @media only screen and (max-width: $bp-medium) {
+        max-width: 150px;
+    }
 }
 
 .name{
@@ -27,6 +37,9 @@
         letter-spacing: 0.2rem;
         font-weight: 500;
         text-align: center;
+        @media only screen and (max-width: $bp-medium) {
+            padding: 0 2rem 0 2rem;
+        }
     }
 }
 
