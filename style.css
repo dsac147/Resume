@@ -187,9 +187,9 @@ body {
   margin-top: 3rem; }
   .course__bullet {
     padding: 1rem 1rem 1rem 1.4rem; }
-    .course__bullet__img {
-      height: 0.7rem;
-      width: .7rem; }
+    @media only screen and (max-width: 62.5em) {
+      .course__bullet {
+        padding: 1rem .5rem 1rem 1.4rem; } }
   .course__heading {
     font-weight: 700;
     font-size: 2rem;
