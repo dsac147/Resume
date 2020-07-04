@@ -54,6 +54,12 @@
     }
 }
 
+#column__second{
+    @media only screen and (max-width: $bp-small) {
+        padding: 5rem 5rem 0 5rem;
+    }
+}
+
 #interests{
     @media only screen and (max-width: $bp-small) {
         margin-top: -5rem;
@@ -67,6 +73,7 @@
     padding-left: 2rem;
     padding-bottom: 1rem;
     padding-right: 2rem;
+
 }
 
 #link{

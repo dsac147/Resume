@@ -36,12 +36,18 @@ body {
 .aboutme__box {
   margin: 5rem auto;
   text-align: center; }
+  @media only screen and (max-width: 40.625em) {
+    .aboutme__box {
+      margin: 8.2rem auto 4rem auto; } }
 
 .aboutme__img {
   max-width: 180px; }
   @media only screen and (max-width: 62.5em) {
     .aboutme__img {
       max-width: 150px; } }
+  @media only screen and (max-width: 40.625em) {
+    .aboutme__img {
+      max-width: 130px; } }
 
 .name {
   text-align: center;
@@ -269,6 +275,10 @@ body {
       margin: -5rem 0 0 0;
       max-width: 100%;
       width: 100%; } }
+
+@media only screen and (max-width: 40.625em) {
+  #column__second {
+    padding: 5rem 5rem 0 5rem; } }
 
 @media only screen and (max-width: 40.625em) {
   #interests {
