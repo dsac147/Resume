@@ -16,6 +16,9 @@ html {
     @media only screen and (max-width: $bp-medium) {
         font-size: 50%;// 1rem = 8px  8/16=50%
     }
+    @media only screen and (max-width: $bp-xsmall) {
+        font-size: 37.5%;// 1rem = 6px  6/16=37.5%
+    }
 }
 
 ::selection {

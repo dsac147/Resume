@@ -25,6 +25,7 @@
 .language__box{
     @media only screen and (max-width: $bp-small) {
         flex: 0 0 50%;
+        padding-bottom: 3rem;
     }
 }
 

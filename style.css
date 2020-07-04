@@ -13,6 +13,9 @@ html {
   @media only screen and (max-width: 62.5em) {
     html {
       font-size: 50%; } }
+  @media only screen and (max-width: 25em) {
+    html {
+      font-size: 37.5%; } }
 
 ::selection {
   background-color: #fbc9c4;
@@ -29,14 +32,14 @@ body {
   background-image: linear-gradient(to right bottom, #e7e7e7, #dfdfdf);
   color: #414042; }
 
-@media only screen and (max-width: 40.625em) {
+@media only screen and (max-width: 46.875em) {
   .about {
     flex: 0 0 50%; } }
 
 .aboutme__box {
   margin: 5rem auto;
   text-align: center; }
-  @media only screen and (max-width: 40.625em) {
+  @media only screen and (max-width: 46.875em) {
     .aboutme__box {
       margin: 8.2rem auto 4rem auto; } }
 
@@ -45,7 +48,7 @@ body {
   @media only screen and (max-width: 62.5em) {
     .aboutme__img {
       max-width: 150px; } }
-  @media only screen and (max-width: 40.625em) {
+  @media only screen and (max-width: 46.875em) {
     .aboutme__img {
       max-width: 130px; } }
 
@@ -118,13 +121,14 @@ body {
   flex-direction: column; }
   .misc__box {
     padding-top: 2rem; }
-  @media only screen and (max-width: 40.625em) {
+  @media only screen and (max-width: 46.875em) {
     .misc {
       flex-direction: row; } }
 
-@media only screen and (max-width: 40.625em) {
+@media only screen and (max-width: 46.875em) {
   .language__box {
-    flex: 0 0 50%; } }
+    flex: 0 0 50%;
+    padding-bottom: 3rem; } }
 
 .side-heading-box {
   display: flex;
@@ -142,21 +146,21 @@ body {
   margin: 2rem 0 2rem 0;
   display: flex;
   align-items: center; }
-  @media only screen and (max-width: 40.625em) {
+  @media only screen and (max-width: 46.875em) {
     .location {
       justify-content: center; } }
   .location__bullet-box {
     display: flex;
     align-items: center;
     padding: 0 1.3rem 0 4.9rem; }
-    @media only screen and (max-width: 40.625em) {
+    @media only screen and (max-width: 46.875em) {
       .location__bullet-box {
         padding: 0 1rem 0 2rem; } }
   .location__text-box {
     font-weight: 400;
     font-size: 1.6rem;
     padding-right: 4.9rem; }
-    @media only screen and (max-width: 40.625em) {
+    @media only screen and (max-width: 46.875em) {
       .location__text-box {
         padding-right: 2rem; } }
 
@@ -239,7 +243,7 @@ body {
       margin: 0;
       max-width: 100%;
       width: 100%; } }
-  @media only screen and (max-width: 40.625em) {
+  @media only screen and (max-width: 46.875em) {
     .container {
       flex-direction: column;
       margin: 0;
@@ -251,7 +255,7 @@ body {
   flex: 0 0 30%;
   display: flex;
   flex-direction: column; }
-  @media only screen and (max-width: 40.625em) {
+  @media only screen and (max-width: 46.875em) {
     .column__first {
       flex-direction: row; } }
 
@@ -269,18 +273,18 @@ body {
       margin: 0;
       max-width: 100%;
       width: 100%; } }
-  @media only screen and (max-width: 40.625em) {
+  @media only screen and (max-width: 46.875em) {
     #container__two {
       flex-direction: column-reverse;
       margin: -5rem 0 0 0;
       max-width: 100%;
       width: 100%; } }
 
-@media only screen and (max-width: 40.625em) {
+@media only screen and (max-width: 46.875em) {
   #column__second {
     padding: 5rem 5rem 0 5rem; } }
 
-@media only screen and (max-width: 40.625em) {
+@media only screen and (max-width: 46.875em) {
   #interests {
     margin-top: -5rem; } }
 
